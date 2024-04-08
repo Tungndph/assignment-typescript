@@ -4,6 +4,7 @@ import Banner from "../Banner";
 import Main from "../Main";
 import "../../../css/app.css";
 import "../../../css/tailwind.css";
+import { Outlet } from "react-router-dom";
 const LayoutWebsite = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const LayoutWebsite = () => {
       <div className="container">
         <Banner />
         <Main />
+        {/* <Outlet/> */}
       </div>
       <Footer />
     </>

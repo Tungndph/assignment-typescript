@@ -1,6 +1,16 @@
+import { useState } from "react";
+import { getTrips } from "../api/trips.api";
 import BookHome from "./BookHome";
+import Search from "./Search";
+import CartSupport from "./CartSupport";
 
 const Banner = () => {
+  const [trips, setTrips] = useState([]);
+
+  const handleSearch = async (query: string) => {
+    const data = await getTrips(query);
+    console.log(data);
+  };
   return (
     <div className="h-300">
       <div
@@ -13,27 +23,14 @@ const Banner = () => {
         <h4 className="text-white absolute inset-x-0 bottom-0 top-40 text-2xl">
           Vexere - Cam kết hoàn 150% nếu nhà xe không giữ chỗ
         </h4>
+        <div className="book">
+          <BookHome />
 
-        <BookHome />
-        <div className="card">
-          <div className="cart1">
-            <img src="../img/a1.svg" alt="" />
-            <a href="#">Chắc chắn có chỗ</a>
-          </div>
-          <div className="cart1">
-            <img src="../img/a2.svg" alt="" />
-            <a href="#">Hỗ trợ 24/7</a>
-          </div>
-          <div className="cart1">
-            <img src="../img/a3.svg" alt="" />
-
-            <a href="#">Nhiều ưu đãi</a>
-          </div>
-          <div className="cart1">
-            <img src="../img/a4.svg" alt="" />
-            <a href="#">Chắc chắn có chỗ</a>
-          </div>
+          <Search onSearch={handleSearch} />
         </div>
+
+        {/* <Search onSearch={handleSearch} /> */}
+        <CartSupport />
       </div>
     </div>
   );

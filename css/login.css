@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login {
+  background-color: #FBFADA;
+  padding-top: 30px;
+}
+h2 {
+  text-align: center;
+  color: #b88e2f;
+}
+
+.login .user,
+.pass {
+  margin: 0 30px;
+}
+label {
+  color: #b88e2f;
+}
+
+.user input {
+  margin-top: 15px;
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #643843;
+}
+.pass {
+  margin-top: 10px;
+}
+.pass input {
+  margin-top: 15px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #643843;
+  width: 100%;
+}
+
+.btn-login {
+  margin-top: 20px;
+  margin-left: 200px;
+  border-radius: 10px;
+  background-color: #f9f1e7;
+  width: 120px;
+  border: none;
+  height: 30px;
+}
+.btn-signup {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.facebook {
+  border-radius: 15px;
+  background-color: #0171d3;
+  width: 130px;
+  border: none;
+  height: 35px;
+  margin-left: 80px;
+  color: #fff;
+}
+.gg {
+  border-radius: 15px;
+  background-color: #f9f07a;
+  width: 130px;
+  border: none;
+  height: 35px;
+  margin-right: 80px;
+  color: #fff;
+}

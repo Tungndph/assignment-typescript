@@ -13,8 +13,8 @@
 .book {
   margin: auto;
   background: #fff;
-  width: 1000px;
-  height: 150px;
+  width: 1110px;
+  height: 160px;
   border-radius: 15px;
   position: absolute;
   top: 60%;
@@ -72,11 +72,12 @@
   display: flex;
   align-items: center;
   width: 80%;
+  height: 50px;
   border: 1px solid #d6dac8;
   border-radius: 15px;
   margin: 15px 0 0 20px;
   .return-date {
-    margin-left: 45px;
+    margin-left: 15px;
     color: #2474e5;
     font-weight: 600;
   }
@@ -103,6 +104,7 @@
     margin-left: 10px;
     border-right: 1px solid #2474e5;
     padding-right: 35px;
+    width: 180px;
 
     p {
       font-size: 12px;

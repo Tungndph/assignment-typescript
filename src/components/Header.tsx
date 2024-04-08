@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Navigation from "./Navigation";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,8 +12,13 @@ const Header = () => {
         </p>
       </div>
       <Navigation />
-      <Button title="Hotline 24/7" />
-      <Button title="Đăng nhập" />
+      <Link to="">
+       
+        <Button title="Hotline 24/7" />
+      </Link>
+      <Link to={"/signin"}>
+        <Button title="Đăng nhập" />
+      </Link>
     </header>
   );
 };

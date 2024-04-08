@@ -7,6 +7,7 @@ const Button = (props: { title: string }) => {
       {props.title}
     </button>
   );
+  
 };
 
 export default Button;

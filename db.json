@@ -1,0 +1,112 @@
+{
+  "trips": [
+    {
+      "id": "1",
+      "busHouseId": "5",
+      "startTime": "2024-04-09T01:00",
+      "endTime": "2024-04-07T02:00",
+      "seats": "12",
+      "price": "100.000đ",
+      "station": "Nước Ngầm",
+      "fromStation": "Hà Nội",
+      "toStation": "Bắc Ninh"
+    },
+    {
+      "id": "faf9",
+      "busHouseId": "3",
+      "startTime": "2024-04-10T11:07",
+      "seats": "15",
+      "price": "300.000đ",
+      "station": "Nước Ngầm",
+      "fromStation": "Hà Nội",
+      "toStation": "Bắc Giang"
+    },
+    {
+      "id": "3d2e",
+      "busHouseId": "6",
+      "startTime": "2024-04-09T01:06",
+      "seats": "20",
+      "price": "100.000",
+      "station": "Giáp Bát",
+      "fromStation": "Hà Nội",
+      "toStation": "Bắc Ninh"
+    }
+  ],
+  "busHouses": [
+    {
+      "id": "1",
+      "name": "An Anh Limousine",
+      "adress": "526 An Dương Vương",
+      "phone": "0987654321"
+    },
+    {
+      "id": "2",
+      "name": "Tiến Oanh",
+      "adress": "VP Đà Lạt",
+      "phone": "0987654321"
+    },
+    {
+      "id": "3",
+      "name": "Hương Chi",
+      "adress": "123 Nguyễn Trãi",
+      "phone": "0912345678"
+    },
+    {
+      "id": "4",
+      "name": "Phúc An",
+      "adress": "456 Lê Văn Quới",
+      "phone": "0989876543"
+    },
+    {
+      "id": "5",
+      "name": "Thành Bưởi",
+      "adress": "789 Trần Hưng Đạo",
+      "phone": "0901234567"
+    },
+    {
+      "id": "6",
+      "name": "Thu Duyên",
+      "adress": "Bắc Giang",
+      "phone": "0901234567"
+    }
+  ],
+  "stations": [
+    {
+      "id": "1",
+      "name": "Mỹ Đình",
+      "province": "Hà Nội"
+    },
+    {
+      "id": "2",
+      "name": "Giáp Bát",
+      "province": "Hà Nội"
+    },
+    {
+      "id": "3",
+      "name": "Gia Lâm",
+      "province": "Hà Nội"
+    },
+    {
+      "id": "4",
+      "name": "Long Biên",
+      "province": "Hà Nội"
+    },
+    {
+      "id": "5",
+      "name": "Kim Mã",
+      "province": "Hà Nội"
+    }
+  ],
+  "users": [
+    {
+      "email": "maixih@gmail.com",
+      "password": "$2a$10$8PibyUSmMm8BM/En9tyJxu6w8kVP10HQIFb5OdR9ai4drFOKdOm82",
+      "id": "1"
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$4tiEU5Aq4N1hdz7duNEbr.qENIFAUkp7uOl.uGmQHEY.i/4Kf2t6K",
+      "id": "2"
+    }
+  ]
+}
